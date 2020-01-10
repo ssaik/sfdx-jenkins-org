@@ -8,6 +8,11 @@ node {
     def DEPLOYDIR='src'
     def TEST_LEVEL='RunLocalTests'
 
+	println 'KEY IS' 
+    println SF_CONSUMER_KEY
+    println SF_USERNAME
+    println SERVER_KEY_CREDENTIALS_ID
+    println TEST_LEVEL
 
     def toolbelt = tool 'toolbelt'
 
